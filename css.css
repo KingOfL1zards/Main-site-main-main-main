@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 23px;
+    align-items: center;
+    max-width: 1440px;
+}
+.sear{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.logo{
+    padding-right: 25px;
+}
+.searbtn1{
+    width: 55px;
+    height: 55px;
+    background: #DD4053;
+    border: none;
+    align-items: center;
+}
+.searbtn2{
+    width: 55px;
+    height: 55px;
+    background: #4AD295;
+    border: none;
+    align-items: center;
+}
+.inpu1{
+    width: 240px;
+    height: 55px;
+    text-align: center;
+    background: #EFF3F6;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: none;
+    
+}
+.inpu2{
+    width: 205px;
+    height: 55px;
+    text-align: center;
+    background: #EFF3F6;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+.fo1{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.fo2{
+    display: flex;
+    align-items: center;
+}
+.lang{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.pho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.num{
+    margin-right: 20px;
+}
+.langu1{
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #1F1F1F;
+    width: 22px;
+    height: 21px;
+}
+.langu2{
+    border: none;
+    background-color: #4AD295;
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    width: 24px;
+    height: 21px;
+}
+.cur{
+    font-size: 15px;
+    line-height: 19px;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;}
+.ico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.fac{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.ins{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.you{
+    width: 20px;
+    height: 20px;
+}
+.line{
+    width: 1px;
+    height: 40px;
+    background-color: grey;
+}
+.form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.panel{
+    display: flex;
+    justify-content: space-around;
+    width: 1600px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+}
+.lu{
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    background-color: gray;
+}
+.ho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    background: linear-gradient(180deg, rgba(20, 20, 30, 0.1) 29.48%, #14141E 100%), 
+    url(i/Mask\ Group.jpg) no-repeat center center;
+    background-size: cover;
+    height: 490px;
+    width: 1440px;
+    padding-left: 195px;
+    width: 100%;
+    
+}
+.inf{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    height: 490px;
+    padding-top: 104px;
+    padding-right: 600px;
+}
+.mor{
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    width: 270px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.cl{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 249px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    line-height: 32px;
+}
+.eco{
+    width: 725px;
+    height: 102px;
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.bod{
+    display: flex;
+    justify-content: center;
+}
+.bot{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.rut{
+    font-size: 30px;
+    line-height: 36px;
+    color: #1D1D1D;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+.hodor{
+    font-size: 18px;
+    line-height: 28px;
+    color: #777777;
+    margin-bottom: 20px;
+}
+.what{
+    background: #BDBDBD;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 270px;
+    height: 50px;
+}
+.con{
+    font-size: 16px;
+    line-height: 20px;
+    color: #969696;
+    border: none;
+    width: 220px;
+    height: 50px;
+    border: 1px solid #969696;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+.tur{
+    display: flex;
+    flex-direction: column;
+}
+.st{
+    display: flex;
+    flex-direction: column;
+    padding-top: 37px;
+}
+.ha{
+    font-size: 18px;
+    line-height: 66px;
+    color: #3D3D3D;
+}
+.ind{
+    display: flex;
+    justify-content: space-evenly;
+}
+.serz{
+    display: flex;
+}
+.prem{
+    display: flex;
+}
+.hop{
+    margin-left: 15px;
+}
+.best{
+    justify-content: center;
+}
+.btaxt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 940px;
+    margin-left: 425px;
+}
+.lin{
+    width: 237px;
+    height: 1px;
+    background-color: gray;
+}
+.imgs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 52px;
+}
+.oll{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #969696;
+    border: 1px solid #969696;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 140px;
+    height: 45px;
+}
